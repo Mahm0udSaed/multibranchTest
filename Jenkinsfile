@@ -3,7 +3,7 @@
 pipeline {
     /* specify nodes for executing */
     agent {
-        label 'github-ci'
+        label 'master'
     }
  
     stages {
