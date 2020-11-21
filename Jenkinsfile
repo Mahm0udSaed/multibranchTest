@@ -1,4 +1,4 @@
-properties([pipelineTriggers([githubPush()])])
+
  
 pipeline {
     /* specify nodes for executing */
