@@ -15,7 +15,7 @@ pipeline {
                  branches: [[name: 'master']],//scm.branches
                  userRemoteConfigs: [[
                     url: 'git@github.com:wshihadeh/rabbitmq_client.git',
-                    credentialsId: '',
+                    
                  ]]
                 ])
             }
